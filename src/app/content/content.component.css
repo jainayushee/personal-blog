@@ -1,0 +1,19 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.chapterOne{
+  flex: 5;
+  /* background-color: pink; */
+  padding:20px;
+}
+
+.chapterTwo{
+  flex: 5;
+  /* background-color: plum; */
+  padding:20px;
+}
+

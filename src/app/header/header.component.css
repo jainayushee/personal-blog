@@ -1,0 +1,38 @@
+.wrapper{
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content{
+  display: flex;
+
+}
+
+.image{
+  padding:10px;
+  height: 40vh;
+  width: 100%;
+  background-image: url('../../../src/assets/home2.jpg');
+  flex:5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.details{
+  flex:5;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.smol{
+  width: 80%;
+}
+ 
