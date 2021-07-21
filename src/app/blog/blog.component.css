@@ -1,9 +1,9 @@
 .wrapper{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: column;  
   align-items: center;
   height: 200vh;
+  width: 100%;
 }
 
 .heading{
@@ -24,15 +24,18 @@
   width: 100%;
   margin:0;
   padding:0;
-  background-color: aqua;
- 
+  background-color: aqua;  
 }
 
 .content{
   flex:7;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
+  width: 100%;
+}
+
+app-blog-header{
   width: 100%;
 }
